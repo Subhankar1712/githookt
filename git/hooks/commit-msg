@@ -1,0 +1,3 @@
+#!/bin/sh
+#
+git init=cat ./. git/commit_editmsg;
