@@ -1,2 +1,8 @@
 #!/bin/sh
 echo "PRE COMMIT HOOK"
+if 
+	[$commit_editmsg==""]
+	then
+		echo "must have a commit message."
+	exit 1
+fi
